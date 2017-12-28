@@ -1,4 +1,3 @@
-var list = document.getElementById("list");
 var cons = [
     {
         name: "Big Dipper/Ursa Major",
@@ -346,6 +345,11 @@ var cons = [
         meaning: "The Little Fox(Where's the big fox? Vulpecula's so lonely.)"
     },  
 ];
+var showPopup = function(i){
+    document.getElementById("popup").style.display = "block";
+    document.getElementById("noclick").style.display = "block";
+}
+var list = document.getElementById("list");
 for(var i = 0; i < cons.length; i++){
-    list.innerHTML += "<div class = 'con'><h1>"+cons[i].name+"</h1><p>"+cons[i].meaning+"</p></div>";
+    list.innerHTML += "<div class = 'con' onclick='showPopup("+i+")'><h1>"+cons[i].name+"</h1><p>"+cons[i].meaning+"</p></div>";
 }

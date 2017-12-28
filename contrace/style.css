@@ -1,10 +1,10 @@
 body{
-    background:#fafafa
+    background:#fafafa;
+    margin:0px;
 }
 #list{
     background:black;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
-    margin:16px;
 }
 .con h1{
     font-family:"Spectral SC";
@@ -22,4 +22,27 @@ body{
 }
 .con:hover{
     background:rgba(49, 27, 146,1);
+}
+#noclick{
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100vh;
+    width:100%;
+    background:rgba(49, 27, 146,0.5);
+    display:none;
+}
+#popup{
+    background:black;
+    position:fixed;
+    width:90%;
+    height:90vh;
+    top:50%;
+    left:50%;
+    transform:Translate(-50%,-50%);
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+    display:none;
+}
+@keyframes fadeIn{
+    
 }
