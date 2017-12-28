@@ -1,9 +1,44 @@
-#header h1{
-    font-size:100px;
+body{
+    margin:0px;
+}
+header h1{
+    font-size:75px;
     text-align: center;
+    font-family: "Titan One";
+    color: white;
+    letter-spacing: 3px;
+    line-height:500px;
+    margin:0px;
+    margin-bottom:-200px;
+    text-shadow: 5px 5px 10px black;
 }
-#picture{
-    display: block;
-    margin: auto;
-    width="400";
+header{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/de/fb/97/defb97ff42e2ef30efae2cdc1bfc842e.jpg");
+    height: 500px;
+    position:relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
 }
+header a{
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Kalam";
+}
+#about{
+  padding-right: 20px;   
+}
+nav{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+.description {
+    font-family:"Dosis";
+    margin-left: 20px;
+    font-size: 20px;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+
